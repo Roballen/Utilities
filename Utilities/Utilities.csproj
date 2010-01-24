@@ -55,6 +55,7 @@
     <Compile Include="Crypto.cs" />
     <Compile Include="DateTools.cs" />
     <Compile Include="Dna.cs" />
+    <Compile Include="FileSystemWatcher.cs" />
     <Compile Include="FileTools.cs" />
     <Compile Include="HttpTools.cs" />
     <Compile Include="Memo.cs" />
