@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{8F0CC9E6-67BD-4D2C-B76F-8D76278F115B}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -54,7 +54,6 @@
     <Compile Include="BaseXmlArrayTest.cs" />
     <Compile Include="CCryptoTest.cs" />
     <Compile Include="CountryCodeTest.cs" />
-    <Compile Include="CStrArrayTest.cs" />
     <Compile Include="DateTimeParserTest.cs" />
     <Compile Include="DateToolsExtenstionsTest.cs" />
     <Compile Include="DateToolsTest.cs" />
@@ -69,7 +68,6 @@
     <Compile Include="SortedListTest.cs" />
     <Compile Include="StateCodesTest.cs" />
     <Compile Include="StrArrayTest.cs" />
-    <Compile Include="StrArrayXTest.cs" />
     <Compile Include="StringTokenizerTest.cs" />
     <Compile Include="StringToolsExtenstionsTest.cs" />
     <Compile Include="StringToolsTest.cs" />

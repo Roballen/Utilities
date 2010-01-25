@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{18DA2F16-E83C-44AA-8AAB-5D3AAF4202B7}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -55,7 +55,7 @@
     <Compile Include="Crypto.cs" />
     <Compile Include="DateTools.cs" />
     <Compile Include="Dna.cs" />
-    <Compile Include="FileSystemWatcher.cs" />
+    <Compile Include="FileWatcher.cs" />
     <Compile Include="FileTools.cs" />
     <Compile Include="HttpTools.cs" />
     <Compile Include="Memo.cs" />
