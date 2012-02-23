@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Text;
+using System.Threading;
 
 namespace Utilities
 {
@@ -54,6 +55,30 @@ namespace Utilities
         }
 
         #endregion IDisposable
+
+
+        public static void WaitForFile(string filename, int waittimeInSeconds)
+        {
+            var waittime = waittimeInSeconds*1000;
+            var totalwaittime = 0;
+
+            while (totalwaittime < waittime)
+            {
+                try
+                {
+                    using (var stream = new StreamReader(filename))
+                    {
+                        break;
+                    }
+                }
+                catch
+                {
+                    Thread.Sleep(500);
+                    totalwaittime += 500;
+                }
+            }
+
+        }
 
         public static void SForceDirIfNecessary(string cDir)
         {
@@ -667,7 +692,7 @@ namespace Utilities
             {
                 root.Append(dirs[i] + "\\");
 
-                if (! Directory.Exists(root.ToString()))
+                if (!Directory.Exists(root.ToString()))
                 {
                     try
                     {
