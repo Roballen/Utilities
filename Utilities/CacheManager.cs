@@ -35,7 +35,7 @@ namespace Utilities.Caching
         public void Insert(T obj, CacheItemPriority priority)
         {
             DateTime expiration = DateTime.Now.AddMinutes(Cacheduration);
-            HttpRuntime.Cache.Add(Cachekey, obj, null, expiration, TimeSpan.Zero, priority, null);
+            HttpRuntime.Cache.Add(Cachekey, obj, null, expiration, TimeSpan.Zero, priority);
         }
 
         public void Clear()

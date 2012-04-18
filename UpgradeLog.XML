@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Utilities">
+</Property><Property Name="Solution File" Value="C:\root\git\dev\Utilities\Utilities.sln">
+</Property><Property Name="Date" Value="Wednesday, February 22, 2012">
+</Property><Property Name="Time" Value="20:25 PM">
+</Property></Properties><Event ErrorLevel="0" Project="Utilities" Source="Utilities\Utilities.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Utilities" Source="Utilities\Utilities.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UtilityTests" Source="UtilityTests\UtilityTests.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UtilityTests" Source="UtilityTests\UtilityTests.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Utilities.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Utilities.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Utilities" Source="Utilities\Utilities.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="3" Project="" Source="LocalTestRun.testrunconfig" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LocalTestRun.testrunconfig" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="Utilities.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Utilities.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="0" Project="UtilityTests" Source="UtilityTests\UtilityTests.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
